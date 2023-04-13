@@ -199,7 +199,6 @@
 .education{
     padding: 100px 0 150px 0;
     background-color: var(--color-hitam);
-
 }
 
 .education .title{
@@ -220,73 +219,49 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 30px;
 }
 
-.education .education-box .box{
+.education .education-box .edubox{
     background-color: var(--color-putih);
     padding: 30px 40px 30px 40px;
+    width: 700px;
     border-radius: 10px;
     transition: all .3s ease;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-.education .education-box .box:hover{
+.education .education-box .edubox:hover{
     transform: translateY(-10px);
 }
 
-.education .education-box .box h3{
+.education .education-box .edubox h3{
     color: var(--color-hitam);
-    margin-bottom: 20px;
-    text-align: center;
+    padding-left: 15px;
 }
 
-.education .education-box .box .sdn-education{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.education .education-box .box .sdn-education div{
+.education .education-box .edubox .sdn-education{
     padding: 10px 20px 10px 20px;
     background-color: #ff70a6;
     border-radius: 100px;
 }
 
-.education .education-box .box .smpn-education{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.education .education-box .box .smpn-education div{
+.education .education-box .edubox .smpn-education{
     padding: 10px 20px 10px 20px;
     background-color: #ff9770;
     border-radius: 100px;
 }
 
-.education .education-box .box .sman-education{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.education .education-box .box .sman-education div{
+.education .education-box .edubox .sman-education{
     padding: 10px 20px 10px 20px;
     background-color: #70d6ff;
     border-radius: 100px;
 }
 
-.education .education-box .box .univ-education{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-}
-
-.education .education-box .box .univ-education div{
+.education .education-box .edubox .univ-education{
     padding: 10px 20px 10px 20px;
     background-color: #ff70a6;
     border-radius: 100px;
